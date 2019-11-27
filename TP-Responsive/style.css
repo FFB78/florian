@@ -1,0 +1,100 @@
+*{margin: 0
+height:100%;
+}
+
+nav{list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.PSD-WEBSITES{
+    height: 25vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #11ABBF;
+    justify-content: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.arrow{
+  height: 5vw;
+}
+
+.UI-KITS{
+    height: 10vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #27212D;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.carre{
+  display: flex;
+  width: 25vw;
+  background-color: #BC3184;
+  justify-content: right;
+}
+
+.arrow1{
+  float: right;
+  height: 15vw;
+  width: 25vw;
+}
+
+
+
+.PREMIUM-PSD-FILES{
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.PREMIUM-PSD-FILES .CTA{
+  width: 33%;
+}
+
+img{
+  width: 33%;
+}
+
+
+.ABOUT{
+    height: 25vw;
+    width: 100%;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.CTA{
+  width: 33%;
+  background-color: #5A0FA0;  
+}
+
