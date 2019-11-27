@@ -1,0 +1,34 @@
+*{margin: 0
+height:100%;
+}
+
+nav{list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.PSD-WEBSITES{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 40, 207);
+}
